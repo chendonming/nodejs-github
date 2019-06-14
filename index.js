@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var inquirer = require('inquirer');
 var axios = require('axios');
 var chalk = require('chalk');

@@ -1,6 +1,6 @@
 {
   "name": "nodejs-github",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "a terminal application for github nodejs",
   "keywords": [
     "github",
@@ -9,6 +9,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ngit": "index.js"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "repository": {
+    "url": "https://github.com/chendonming/nodejs-github",
+    "type": "git"
   },
   "author": "chendm <2283973011@qq.com>",
   "license": "MIT",
